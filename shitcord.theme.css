@@ -32,14 +32,30 @@
 .topic-TCb_qw.expandable-9fI_e3,
 /* Mentions */
 .mention,
+.mention.interactive,
 /* Member List */
 .name-uJV0GL span,
 .activityText-yGKsKm,
+.activity-525YDR,
+.subText-1KtqkB,
+.headerText-2F0828,
 /* Bot tag */
 .px-10SIf7 .botText-1526X_,
 /* Typing Indicator */
 .text-1y-e8-,
-.ellipsis-19qdx6
+.ellipsis-19qdx6,
+/* It's quiet for now */
+.emptyHeader-3lmLcs,
+.emptyText-2zjpZr,
+.header-13Cw0-,
+.tabBar-ZmDY9v .item-3HknzM,
+/* DM list items */
+.channel-2QD9_O.container-2Pjhx- .name-uJV0GL,
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx,
+/* Friends List */
+.username-31C1TQ,
+.subtext-24R4-w,
+.discriminator-22Okc1
 {
     color: transparent !important;
 }
@@ -47,7 +63,8 @@
 /* Emojis */
 .emojiContainer-3X8SvE img { opacity: 0; }
 
-.typing-2GQL18::before {
+.typing-2GQL18::before,
+.tabBar-ZmDY9v .item-3HknzM::before {
     content: "💩💩💩";
     color: white;
 }
@@ -69,8 +86,18 @@
 .mention::before,
 .name-uJV0GL span::before,
 .activityText-yGKsKm::before,
+.activity-525YDR::before,
+.subText-1KtqkB::before,
+.headerText-2F0828::before,
 .px-10SIf7 .botText-1526X_::before,
-.text-1y-e8-::before
+.text-1y-e8-::before,
+.emptyHeader-3lmLcs::before,
+.emptyText-2zjpZr::before,
+.header-13Cw0-::before,
+.channel-2QD9_O.container-2Pjhx- .name-uJV0GL::before,
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx::before,
+.username-31C1TQ::before,
+.subtext-24R4-w::before
 {
     content: "💩 💩 💩 💩 💩";
     color: white;

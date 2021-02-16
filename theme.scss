@@ -1,0 +1,67 @@
+/* Messages */
+.messageContent-2qWWxC,
+.markup-2BOw-j a,
+/* Usernames */
+.username-1A8OIy.clickable-1bVtEA,
+/* Timestamps */
+.timestamp-3ZCmNB,
+/* Edited */
+.edited-3sfAzf,
+/* Embeds */
+.embedTitle-3OXDkz,
+.embedFieldName-NFrena,
+.embedFieldValue-nELq2s,
+/* Channels */
+.name-23GUGE,
+.overflow-WK9Ogt,
+/* Username in VC */
+.username-3KYl0N,
+/* Header */
+.title-29uC1r,
+.name-1jkAdW,
+.topic-TCb_qw.expandable-9fI_e3,
+/* Mentions */
+.mention,
+/* Member List */
+.name-uJV0GL span,
+.activityText-yGKsKm,
+/* Bot tag */
+.px-10SIf7 .botText-1526X_,
+/* Typing Indicator */
+.text-1y-e8-,
+.ellipsis-19qdx6
+{
+    color: transparent !important;
+}
+
+/* Emojis */
+.emojiContainer-3X8SvE img { opacity: 0; }
+
+.typing-2GQL18::before {
+    content: "💩💩💩";
+    color: white;
+}
+
+.messageContent-2qWWxC::before,
+.username-1A8OIy.clickable-1bVtEA::before,
+.emojiContainer-3X8SvE::before,
+.timestamp-3ZCmNB::before,
+.edited-3sfAzf::before,
+.embedTitle-3OXDkz::before,
+.embedFieldName-NFrena::before,
+.embedFieldValue-nELq2s::before,
+.name-23GUGE::before,
+.overflow-WK9Ogt::before,
+.username-3KYl0N::before,
+.title-29uC1r::before,
+.name-1jkAdW::before,
+.topic-TCb_qw.expandable-9fI_e3::before,
+.mention::before,
+.name-uJV0GL span::before,
+.activityText-yGKsKm::before,
+.px-10SIf7 .botText-1526X_::before,
+.text-1y-e8-::before
+{
+    content: "💩 💩 💩 💩 💩";
+    color: white;
+}

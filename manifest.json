@@ -3,7 +3,7 @@
     "description": "It's all shit",
     "version": "1.0.0",
     "author": "Yellowsink#8156",
-    "theme": "theme.scss",
+    "theme": "shitcord.theme.css",
     "consent": ["ext_listing"],
     "license": "-"
 }
